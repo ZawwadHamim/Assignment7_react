@@ -59,7 +59,7 @@ const FriendDetails = () => {
       title: `${type} with ${name}`,
       type: type.toLowerCase(),
     });
-    toast.success(`✅ ${type} with ${name} logged on ${today}`, {
+    toast.success(` ${type} with ${name} logged on ${today}`, {
       position: "bottom-right",
       autoClose: 3000,
     });
