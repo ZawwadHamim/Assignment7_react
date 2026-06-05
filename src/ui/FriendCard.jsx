@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router";
 
 const FriendCard = ({friend}) => {
     return(
-        <div className="text-center shadow py-8 px-6 space-y-2">
+        <Link to={`/friends/${friend.id}`} className="text-center shadow py-8 px-6 space-y-2">
             <img src={friend.picture} alt="" className="h-15 mx-auto rounded-full" />
             <h3 className="text-xl font-semibold">{friend.name}</h3>
             <p className="text-sm">{friend.days_since_contact}d ago</p>
@@ -13,7 +14,7 @@ const FriendCard = ({friend}) => {
             </div>
             <button className={`btn ${friend.status==="ok"?'btn-success':'btn-error'}`}>{friend.status}</button>
 
-        </div>
+        </Link>
     )
 }
 

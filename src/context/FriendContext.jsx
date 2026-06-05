@@ -1,28 +1,33 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import getFriends from "../lib/Call";
-
 
 const FriendsContext = createContext();
 
 export const FriendsProvider = ({ children }) => {
-    const [friends, setFriends] = useState([]);
-    const [loading, setLoading] = useState(true);
+  const [friends, setFriends] = useState([]);
+  const [timelines, setTimelines] = useState({});
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
+  useEffect(() => {
     const fetchFriends = async () => {
-        const data = await getFriends();
-        
-        setFriends(data);
-        setLoading(false);
-        
+      const res = await fetch("/friends.json");
+      const data = await res.json();
+      setFriends(data);
+      setLoading(false);
     };
-
     fetchFriends();
-    
-    }, []);
-    
+  }, []);
+
+  const addTimelineEntry = (friendId, entry) => {
+    setTimelines((prev) => ({
+      ...prev,
+      [friendId]: [{ ...entry, id: Date.now() }, ...(prev[friendId] ?? [])],
+    }));
+  };
+
+  const getTimeline = (friendId) => timelines[friendId] ?? [];
+
   return (
-    <FriendsContext.Provider value={{ friends, loading }}>
+    <FriendsContext.Provider value={{ friends, loading, addTimelineEntry, getTimeline }}>
       {children}
     </FriendsContext.Provider>
   );

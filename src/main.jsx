@@ -9,6 +9,7 @@ import Timeline from './page/timeline/Timeline';
 import Stats from './page/stats/Stats';
 import NotFoundPage from './page/notFoundPage/NotFoundPage';
 import { FriendsProvider } from './context/FriendContext';
+import FriendDetails from './ui/FriendDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'/stats',
         element:<Stats/>
+      },
+      {
+        path: '/friends/:id',
+        element: <FriendDetails />
       }
     ],
     errorElement: <NotFoundPage/>
