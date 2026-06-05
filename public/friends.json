@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 5,
+    "status": "ok",
+    "tags": ["college", "close friend"],
+    "bio": "Met in freshman year. We bonded over late-night study sessions and bad coffee.",
+    "goal": 14,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 2,
+    "name": "James Okafor",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "james.okafor@outlook.com",
+    "days_since_contact": 21,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Senior dev who gave me my first code review. Still teaches me something new every time we talk.",
+    "goal": 14,
+    "next_due_date": "2025-07-01"
+  },
+  {
+    "id": 3,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "priya.sharma@yahoo.com",
+    "days_since_contact": 3,
+    "status": "ok",
+    "tags": ["college", "travel buddy"],
+    "bio": "We backpacked Southeast Asia together. She can find a good restaurant anywhere in the world.",
+    "goal": 10,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 4,
+    "name": "Marcus Webb",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "marcus.webb@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["childhood", "neighbor"],
+    "bio": "Grew up on the same street. Haven't seen him in years but feel like no time has passed.",
+    "goal": 30,
+    "next_due_date": "2025-06-15"
+  },
+  {
+    "id": 5,
+    "name": "Lena Brandt",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "lena.brandt@protonmail.com",
+    "days_since_contact": 8,
+    "status": "ok",
+    "tags": ["work", "book club"],
+    "bio": "We started a sci-fi book club that's now 12 people. She picks the best obscure reads.",
+    "goal": 14,
+    "next_due_date": "2025-07-13"
+  },
+  {
+    "id": 6,
+    "name": "Derek Fontaine",
+    "picture": "https://randomuser.me/api/portraits/men/56.jpg",
+    "email": "derek.fontaine@gmail.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "My college roommate for 3 years. He still owes me for half a Netflix account.",
+    "goal": 21,
+    "next_due_date": "2025-06-01"
+  },
+  {
+    "id": 7,
+    "name": "Aiko Tanaka",
+    "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+    "email": "aiko.tanaka@icloud.com",
+    "days_since_contact": 12,
+    "status": "ok",
+    "tags": ["close friend", "gym"],
+    "bio": "Training partners turned best friends. She pushed me to run my first 5K.",
+    "goal": 14,
+    "next_due_date": "2025-07-07"
+  },
+  {
+    "id": 8,
+    "name": "Carlos Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+    "email": "carlos.rivera@hotmail.com",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": ["family friend", "childhood"],
+    "bio": "My dad's best friend's son. We grew up at every family barbecue and holiday together.",
+    "goal": 30,
+    "next_due_date": "2025-05-01"
+  },
+  {
+    "id": 9,
+    "name": "Nina Kowalski",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "nina.kowalski@gmail.com",
+    "days_since_contact": 2,
+    "status": "ok",
+    "tags": ["work", "close friend"],
+    "bio": "Started as coworkers, became inseparable. She's the first person I call with good news.",
+    "goal": 7,
+    "next_due_date": "2025-07-07"
+  },
+  {
+    "id": 10,
+    "name": "Tom Ellsworth",
+    "picture": "https://randomuser.me/api/portraits/men/88.jpg",
+    "email": "tom.ellsworth@gmail.com",
+    "days_since_contact": 33,
+    "status": "overdue",
+    "tags": ["college", "band"],
+    "bio": "We played in a terrible college band together. Still the most fun I've had on a Saturday night.",
+    "goal": 21,
+    "next_due_date": "2025-06-20"
+  }
+]
